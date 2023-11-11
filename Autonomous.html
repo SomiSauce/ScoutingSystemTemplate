@@ -11,13 +11,18 @@
         <!-- Save it somewhere(action)-->
         <form method="post" action="results.php">
             <fieldset>
-                <label for="Team-number">Enter the team number: <input id="Team-number" name = "Team-number" type = "number" required /></label>
+                <legend>Enter the team number</legend>
+                <label for="Team-number"><input id="Team-number" name = "Team-number" type = "number" required /></label>
             </fieldset>
             <fieldset>
                 <legend>How did the auto go?</legend>
                 <label for="Auto-poor"><input id="Auto-poor" name = "Auto-ability" type = "radio" class="inline" required />Poor</label>
                 <label for="Auto-fine"><input id="Auto-poor" name = "Auto-ability" type = "radio" class="inline" required />Fine</label>
                 <label for="Auto-good"><input id="Auto-good" name = "Auto-ability" type = "radio" class="inline" required />Good</label>
+            </fieldset>
+            <fieldset>
+                <legend>Specific scoring points</legend>
+                <!--add after kickoff-->
             </fieldset>
         </form>
         <nav>
