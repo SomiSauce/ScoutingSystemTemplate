@@ -1,2 +1,5 @@
 <?php
-print_r($_POST);
+
+$name = $_POST["name"];
+$type = $_POST["type"];
+var_dump_($name, $type);
