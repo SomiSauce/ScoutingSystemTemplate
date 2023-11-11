@@ -12,7 +12,12 @@
         <form method="post" action="results.php">
             <fieldset>
                 <label for="Team-number">Enter the team number: <input id="Team-number" name = "Team-number" type = "number" required /></label>
-                <label for="Auto-ability">How did the auto go?: <input id="Auto-ability" name = "Auto-ability" type = "radio" required /></label>
+            </fieldset>
+            <fieldset>
+                <legend>How did the auto go?</legend>
+                <label for="Auto-poor"><input id="Auto-poor" name = "Auto-ability" type = "radio" class="inline" required />Poor</label>
+                <label for="Auto-fine"><input id="Auto-poor" name = "Auto-ability" type = "radio" class="inline" required />Fine</label>
+                <label for="Auto-good"><input id="Auto-good" name = "Auto-ability" type = "radio" class="inline" required />Good</label>
             </fieldset>
         </form>
         <nav>
