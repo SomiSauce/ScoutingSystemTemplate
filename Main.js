@@ -1,7 +1,6 @@
-const steps = Array.from(document.querySelectorAll("form .step"));
-const nextBtn = document.querySelectorAll("form .next-btn");
-const prevBtn = document.querySelectorAll("form .previous-btn");
-const form = document.querySelector("form");
+const steps = Array.from(document.querySelectorAll(" .step"));
+const nextBtn = document.querySelectorAll(" .next-btn");
+const prevBtn = document.querySelectorAll(" .previous-btn");
 
 nextBtn.forEach((button) => {
   button.addEventListener("click", () => {
