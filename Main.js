@@ -16,9 +16,10 @@ prevBtn.forEach((button) => {
 
 
 function changeStep(btn) {
-  let index = 0;
   const active = document.querySelector(".active");
-  index = steps.indexOf(active);
+  let index = steps.indexOf(active);
+  console.log(index);
+  console.log(steps);
   steps[index].classList.remove("active");
   if (btn === "next") {
     index++;
