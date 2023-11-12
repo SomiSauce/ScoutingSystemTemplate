@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>2024 Scouting System</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+        <link rel="stylesheet" href="Pages.css">
+    </head>
+    <body>
+        <!--AUTO-->
+        <div class="step step-1 active">
+        <h1>Autonomous</h1>
+        <p>Make sure to fill in every single blanks</p>
+        <form method="post" action="" name ="Scouting-data">
+            <fieldset>
+                <legend>Enter your name</legend>
+                <label for="scouter-name"><input id = "Scouter-name" name = "Scouter-name" type = "text" placeholder="name" required/></label>
+            </fieldset>
+            <fieldset>
+                <legend>Enter the team number</legend>
+                <label for="Team-number"><input id = "Team-number" name = "Team-number" type = "number" placeholder="team number" required /></label>
+            </fieldset>
+            <fieldset>
+                <legend>How did the auto go?</legend>
+                <label for="Auto-poor"><input id = "Auto-poor" name = "Auto-ability" type = "radio" class="inline" required />Poor</label>
+                <label for="Auto-fine"><input id= "Auto-fine" name = "Auto-ability" type = "radio" class="inline" required />Fine</label>
+                <label for="Auto-good"><input id= "Auto-good" name = "Auto-ability" type = "radio" class="inline" required />Good</label>
+            </fieldset>
+            <fieldset>
+                <legend>Specific scoring points</legend>
+                <!--add after kickoff-->
+            </fieldset>
+            <button type="button" class="next-btn">Next</button>
+        </div>
+        <!--TELEOP-->
+        <div class="step step-2 ">
+            <h1>Teleop</h1>
+            <p>Make sure to fill in every single blanks</p>
+            <button type="button" class="prev-btn">Prev</button>
+            <button type="button" class="next-btn">Next</button>
+        </div>
+        <!--ENDGAME-->
+        <div class="step step-3 ">
+            <h1>Endgame</h1>
+            <p>Make sure to fill in every single blanks</p>
+            <button type="button" class="prev-btn">Prev</button>
+            <input type="submit" value="Submit" id = "submit" />
+        </div>
+        </form>
+        <script src="./Main.js"></script>
+        <script src="./Google Sheets.js"></script>
+    </body>
+</html>
