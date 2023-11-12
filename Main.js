@@ -13,7 +13,6 @@ prevBtn.forEach((button) => {
   });
 });
 
-
 function changeStep(btn) {
   const active = document.querySelector(".active");
   let index = steps.indexOf(active);
